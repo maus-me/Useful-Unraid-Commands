@@ -14,8 +14,11 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
 - #### Watch CPU MHz
   `watch "grep 'cpu MHz' /proc/cpuinfo"`
    
-- #### Check File User Permissions
+- #### Find files with User Permissions
   `find . ! -user nobody`
 
+- #### Find Problem Media Files
+  `find . -type f ! -name '*.mp4' ! -name '*.mkv' ! -name '*theme.mp3' ! -name '*.srt' ! -name '*.avi' ! -name '*.sub'`
+  
 - #### 
   ``
