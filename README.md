@@ -10,10 +10,11 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
 - #### Check Max CPU Hz Frequency
   `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq `
   
-   
 - #### Watch CPU MHz
   `watch "grep 'cpu MHz' /proc/cpuinfo"`
-   
+
+### Files
+
 - #### Find files with User Permissions
   `find . ! -user nobody`
 
