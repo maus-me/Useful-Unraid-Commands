@@ -18,6 +18,7 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
 - #### Find files with Permissions Issues
   `find . ! -user nobody`
   `find . ! -group users`
+  `find . -type f ! -perm -755 ! -perm -777 ! -perm -666`
 
 - #### Find Problematic Media Files
   `find . -type f ! -name '*.mp4' ! -name '*.mkv' ! -name '*theme.mp3' ! -name '*.srt' ! -name '*.sub' ! -name '*.MKV' ! -name '*.avi' ! -name '*.ssa' ! -name '*.ass'`
