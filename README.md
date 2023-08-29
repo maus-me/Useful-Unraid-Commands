@@ -14,5 +14,8 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
 - #### Watch CPU MHz
   `watch "grep 'cpu MHz' /proc/cpuinfo"`
    
+- #### Check File User Permissions
+  `find . ! -user nobody`
+
 - #### 
   ``
