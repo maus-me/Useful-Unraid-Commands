@@ -20,6 +20,7 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
 
 - #### Find Problematic Media Files
   `find . -type f ! -name '*.mp4' ! -name '*.mkv' ! -name '*theme.mp3' ! -name '*.srt' ! -name '*.avi' ! -name '*.sub'`
+  
   `find . -type f -name '*.txt'`
   Note: I specifically avoid avi, m4v, mpg, ts, and others to ensure best playback compatibility.
   
