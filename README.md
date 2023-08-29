@@ -19,7 +19,7 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
   `find . ! -user nobody`
 
 - #### Find Problematic Media Files
-  `find . -type f ! -name '*.mp4' ! -name '*.mkv' ! -name '*theme.mp3' ! -name '*.srt' ! -name '*.avi' ! -name '*.sub'`
+  `find . -type f ! -name '*.mp4' ! -name '*.mkv' ! -name '*theme.mp3' ! -name '*.srt' ! -name '*.sub' ! -name '*.MKV' ! -name '*.avi' ! -name '*.ssa' ! -name '*.ass'`
   
   `find . -type f -name '*.txt'`
   
@@ -27,6 +27,7 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
   
 - #### Remove Problematic Media Files
   `find . -type f -name '*.txt' -delete`
+
   
 - #### 
   ``
