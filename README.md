@@ -23,7 +23,7 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
   
   `find . -type f -name '*.txt'`
   
-  Note: I specifically avoid avi, m4v, mpg, ts, and others to ensure best playback compatibility.
+  Note: I specifically avoid avi, m4v, mpg, ts, and others to ensure best playback compatibility (avoiding MPEG, MJPEG, WMV3, VC1, MP2, PCM).
   
 - #### Remove Problematic Media Files
   `find . -type f -name '*.txt' -delete`
