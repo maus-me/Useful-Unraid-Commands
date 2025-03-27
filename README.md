@@ -14,6 +14,8 @@ Useful commands/Scripts that I have found/used when tinkering with my unraid ser
   `watch "grep 'cpu MHz' /proc/cpuinfo"`
 
 ### Files
+- #### Count all filetypes in directory
+  `find . -type f | sed -e 's/.*\.//' | sort | uniq -c | sort -n`
 
 - #### Find files with Permissions Issues
   `find . ! -user nobody`
